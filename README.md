@@ -5,12 +5,12 @@ Setting up bothering BOJ problems all at once.
 귀찮은 백준 문제 셋팅을 한번에
 
 
-How to Use
+## How to Use
 
 ### Github에서 다운로드 하지 않아도 됩니다!
 
-1. pip install bojmaker
-2. bojmaker 1111
+#### 1. pip install bojmaker
+#### 2. bojmaker 1111
 
 
 - 어디서든 bojmaker <문항 번호> 만 실행하면
