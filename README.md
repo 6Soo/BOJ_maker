@@ -23,3 +23,4 @@ Setting up bothering BOJ problems all at once.
 
 
 - SSAFY 5기 화이팅~!!
+- feedback : kkokko-hero@hanmail.net
