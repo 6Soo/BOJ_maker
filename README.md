@@ -1,5 +1,3 @@
-
-
 <h1> BOJ_maker </h1>
 
 
@@ -46,4 +44,4 @@ version 1.1
 
 
 <h3> SSAFY 5기 화이팅~!! </h3>
-
+<h3> feedback : kkokko-hero@hanmail.net </h3>
