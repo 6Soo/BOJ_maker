@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="bojmaker",
-    version="1.0",
+    version="1.1",
     license='MIT',
     author="6Soo",
     author_email="kkokko-hero@hanmail.net",
@@ -13,7 +13,7 @@ setuptools.setup(
             "bojmaker = bojmaker.main:main"
         ]
     },
-    url="https://github.com/6Soo/BOJ_maker_for_python",
+    url="https://github.com/6Soo/BOJ_maker",
     packages=setuptools.find_packages(),
     install_requires=['beautifulsoup4'],
     classifiers=[
