@@ -1,9 +1,5 @@
 <h1> BOJ_maker </h1>
 
-
-
-<h2>Project description</h2>
-
 Setting up bothering BOJ problems all at once.
 
 번거로운 백준 문제 셋팅을 한번에 해줍니다.
@@ -33,15 +29,19 @@ Setting up bothering BOJ problems all at once.
 
 <h3> New Feature </h3>
 
-version 1.1
+- version 1.2
+  - 
 
-- cpp, java 파일 생성 추가
+- version 1.1
+  - cpp, java 파일 생성 추가
+
+<h3> Thanks To </h3>
 
 
 
-
+<h4>tae young Yu (neo@hphk.kr)</h4>
 
 
 
 <h3> SSAFY 5기 화이팅~!! </h3>
-<h3> feedback : kkokko-hero@hanmail.net </h3>
+<h4> feedback : kkokko-hero@hanmail.net </h4>

@@ -2,12 +2,13 @@ import setuptools
 
 setuptools.setup(
     name="bojmaker",
-    version="1.1",
+    version="1.1.2",
     license='MIT',
     author="6Soo",
     author_email="kkokko-hero@hanmail.net",
     description="Setting up bothering BOJ problems all at once.",
     long_description=open('README.md', 'r', encoding='utf-8').read(),
+    long_description_content_type="text/markdown",
     entry_points={
         "console_scripts": [
             "bojmaker = bojmaker.main:main"
