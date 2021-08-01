@@ -30,7 +30,7 @@ Setting up bothering BOJ problems all at once.
 <h3> New Feature </h3>
 
 - version 1.2
-  - 
+  - VS Code에서 Python이 실행되도록 경로 수정
 
 - version 1.1
   - cpp, java 파일 생성 추가
