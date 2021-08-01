@@ -6,7 +6,7 @@ from urllib.request import urlopen
 def file_maker(folder_name, problem_input):
     sol_py_content = '''import sys
     
-sys.stdin = open('input.txt')'''
+sys.stdin = open('{}\input.txt'.format(os.path.dirname(os.path.realpath(__file__))))'''
 
     sol_cpp_content = '''#include <iostream>
 using namespace std;
