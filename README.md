@@ -35,6 +35,13 @@ Setting up bothering BOJ problems all at once.
 - version 1.1
   - cpp, java 파일 생성 추가
 
+<h3> Notice </h3>
+
+- PyCharm 환경에서는 실행 후 디렉토리 목록 아무데나 클릭 해주시면 폴더 생성이 반영됩니다~!
+
+- 일부 문제에서 input.txt 생성시에 공백이 추가되는 현상이 있습니다.
+  인풋 데이터 다루는 중에 오류가 나신다면 파일을 한번만 확인해주세요!
+
 <h3> Thanks To </h3>
 
 
