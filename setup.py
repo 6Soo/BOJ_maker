@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="bojmaker",
-    version="1.2",
+    version="1.3",
     license='MIT',
     author="6Soo",
     author_email="kkokko-hero@hanmail.net",

@@ -1,10 +1,9 @@
-import os, sys, argparse
+import os, sys, argparse, requests
 from bs4 import BeautifulSoup
-from urllib.request import urlopen
 
 
 def file_maker(folder_name, problem_input):
-    sol_py_content = '''import sys
+    sol_py_content = '''import sys, os
     
 sys.stdin = open('{}\input.txt'.format(os.path.dirname(os.path.realpath(__file__))))'''
 
@@ -53,9 +52,10 @@ public class className {
     sol_java.write(sol_java_content)
     sol_java.close()
 
+
 def bojmaker(problem_number):
     url = 'https://www.acmicpc.net/problem/'
-    html = urlopen('{}{}'.format(url, problem_number))
+    html = requests.get('{}{}'.format(url, problem_number), headers={'User-Agent': 'Mozilla/5.0'}).content
     bs_object = BeautifulSoup(html, 'html.parser')
 
     problem_title = bs_object.find('span', id='problem_title').text
